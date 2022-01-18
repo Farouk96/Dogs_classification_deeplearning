@@ -13,7 +13,7 @@ st.title("Dog Breed Classification - MobileNetV2")
 st.text(" Téléchargez une image de chien pour obtenir sa race. Seulement 120 races disponibles.")
 
 # Importing labels name
-my_content = open("Dogs_name.txt", "r")
+my_content = open("dogs_name.txt", "r")
 dog_names = my_content.read()
 dogs_list = dog_names.split('\n')
 my_content.close()
